@@ -1,0 +1,131 @@
+body {
+    background: rgba(3, 3, 3, 0.685);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(184, 159, 159);
+    background-image: url("images/intro.jpg");
+    background-size: 150%;
+    padding:0px;
+    margin: none;
+    height: 700px;
+    text-align: center;
+}
+li.signin{
+    text-decoration: none;
+    background-color: rgb(108, 133, 218);
+    width:180px;
+    height:40px;
+    display : inline-block;
+}
+a.signin{
+    text-decoration: none;
+    color: rgb(246, 243, 243);
+    position: relative;
+    top:20px;
+    left: 83px;
+}
+li.signin:hover{
+    background-color: rgb(41, 91, 197);
+}
+section{
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+section.about{
+    flex-direction: column;
+}
+div.img1{
+    margin: auto;
+    width: 20px;
+    height: 200px;
+    padding: 206px;
+    position: relative;
+    background-image: url("images/file_image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.img2{
+    margin: auto;
+    width: 20px;
+    height: 200px;
+    padding: 206px;
+    position: relative;
+    background-image: url("images/cloud_database-512.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.content{
+    margin: auto;
+    width: 20px;
+    height: 200px;
+    padding: 206px;
+    position: relative;
+    position: relative;
+}
+ul{
+    padding: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+}
+ul.bar li{
+    display : inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+li:first-child.logo{
+    background-image: url("images/folder-blue-google-drive-icon.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    position: relative;
+    top: -35px;
+    margin-left: 0;
+    width: 110px;
+    height: 100px;
+}
+a.top{
+    text-decoration: none;
+    color: white;
+}
+a.top:hover{
+    text-decoration: underline;
+}
+h1{
+    padding: 70px;
+}
+section.about h1{
+    padding: 0px;
+}
+div.content h1.text{
+    margin: auto;
+    width: 20px;
+    height: 200px;
+    padding: 206px;
+    position: relative;
+    padding: 0px;
+    margin-right: 0px;
+    width: 350px;
+    position: relative;
+    left: -170px;
+    top: -50px;
+}
+h3{
+    width: 350px;
+    position: relative;
+    left: -170px;
+    top: -30px;
+}
+footer{
+    background-color: black;
+    color:grey;
+    padding: 20px;
+    text-align: center;
+}

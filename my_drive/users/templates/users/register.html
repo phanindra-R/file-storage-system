@@ -1,0 +1,42 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'drive/styles.css' %}">
+    <title>Drive-About</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="bar">
+                <li class="logo"><a href="index.html">Icon and Name</a></li>
+                <li><a href="/" class="top">Home</a></li>
+                <li><a href="" class="top">About</a></li>
+                <li><a href="/support/" class="top">Support</a></li>
+                <li><a href="/help/" class="top">Help</a></li>
+            </ul>
+        </nav>
+        <h1>My file storage drive</h1>
+        <li class="signin">
+            <a href="/login/" class="signin"><h3>Sign in</h3></a>
+        </li>
+    </header>
+    <section class="about">
+        <h1>register</h1>
+        <form class="site-form" method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>     </p>
+        <small>
+            Already have an account? <a href="/login/">Sign In</a>
+        </small>
+    </section>
+    <footer>
+        A file storage drive created by phanindra ramineni.
+    </footer>
+</body>
+</html>
